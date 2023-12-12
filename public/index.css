@@ -1,0 +1,137 @@
+header {
+    background-color: #fff;
+    margin-bottom: 0;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2 rem;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+#search-box {
+    padding: 10px;
+    margin-right: 10px; 
+    border: 1px solid #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 100%; 
+    max-width: 600px; 
+}
+
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: white; 
+    color: black;
+    font-size: 1 rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container {
+    width: 100%;
+}
+
+.view-cart-button {
+    display: block;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    background-color: #dddddd;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-container {
+    text-align: right;
+    padding-right: 20px; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 120px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.product-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.product-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-item h3 {
+    font-size: 1 rem;
+    margin-bottom: 10px;
+}
+
+
+.product-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.product-item button {
+    background-color: #28a745; 
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.availability.in-stock {
+    color: green;
+}
+
+.availability.out-of-stock {
+    color: red;
+}
+
+
+.notification-popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+    max-width: 300px;
+    text-align: center;
+}
+
+.notification-popup p {
+    margin: 0;
+    font-size: 1rem;
+}
